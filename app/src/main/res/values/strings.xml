@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">movie</string>
+
+    //text
+    <string name="text_splash">MovieDB</string>
+    <string name="text_welcome_sign_in">Sign In</string>
+    <string name="text_welcome_sign_up">Sign Up</string>
+    <string name="text_registration_sign_in">Sign In</string>
+    <string name="text_registration_sign_up">Sign Up</string>
+    <string name="text_actors">Actors :</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_username">Username</string>
+    <string name="text_number_favorite_film">Number of favorite films</string>
+    <string name="text_films">Films :</string>
+    <string name="text_film_name">Film Name</string>
+    <string name="text_film_grade">Film Grade</string>
+    <string name="text_film_genre">Film Genre</string>
+    <string name="text_actor_name">Actor Name</string>
+    <string name="text_actor_surname">Actor Surname</string>
+    <string name="text_actor_bio">Actor bio</string>
+
+    //hint
+    <string name="hint_email">Email</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_repassword">Repassword</string>
+
+    //button
+    <string name="button_sign_in">Sign In</string>
+    <string name="button_sign_up">Sign Up</string>
+
+    //Spinner
+    <string-array name="film_search">
+        <item>Popular</item>
+        <item>Genre</item>
+        <item>Artist</item>
+    </string-array>
+</resources>

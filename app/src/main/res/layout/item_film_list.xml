@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/royal_purple">
+
+    <ImageView
+        android:id="@+id/imageFilmPoster"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+       />
+
+    <TextView
+        android:id="@+id/textFilmName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/text_film_name"
+        android:textSize="@dimen/text_size_22dp"
+        app:layout_constraintStart_toEndOf="@+id/imageFilmPoster"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <TextView
+        android:id="@+id/textFilmGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/text_film_grade"
+        android:textSize="@dimen/text_size_22dp"
+        app:layout_constraintStart_toStartOf="@+id/textFilmName"
+        app:layout_constraintTop_toBottomOf="@+id/textFilmName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
